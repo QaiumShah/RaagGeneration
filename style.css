@@ -71,9 +71,10 @@ body{
 
 }
 .left-main-content{
-  margin: -10px 0 0 160px;
+  margin: 10px 0 10px 160px;
   background-color: #fdfdfd;
   position: relative;
+  border-radius: 5px;
 }
 
 .header-content{
@@ -170,6 +171,16 @@ p{text-align: justify;}
 
 }
 
+.contactus-main-content{
+  display: block;
+  color: #292929;
+  padding: 30px 0 30px 200px;
+}
+
+.contactus-main-content h2{
+  padding: 10px 10px;
+}
+
 /** before footer**/
 .before-footer{
   background: #171717;
@@ -241,7 +252,7 @@ p{text-align: justify;}
   display: block;
   text-align: right;
 	width: 670px;
-  color: #fdfdfd;
+
 
 }
 
