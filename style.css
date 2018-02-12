@@ -6,6 +6,7 @@ body{
 
 .main{
   background-color: #dadada;
+  
 }
 
 .top-header{
@@ -57,18 +58,18 @@ body{
 /** main content **/
 
 .main-content{
-  margin: -150px 0px 0px 160px;
+  margin: -150px 0px 10px 160px;
   z-index: 4;
   background-color: #fdfdfd;
   position: relative;
-
+  border-radius: 5px;
 }
 
 .right-main-content{
-  margin: -10px 160px 0 0;
-  background-color: #eaeaea;
+  margin: 10px 160px 10px 0;
+  background-color: #fdfdfd;
   position: relative;
-
+  border-radius: 5px;
 }
 .left-main-content{
   margin: 10px 0 10px 160px;
@@ -80,6 +81,7 @@ body{
 .header-content{
   height: 100%;
   background-color: #fdfdfd;
+  border-radius: 5px;
 }
 
 .main-content h2 {
