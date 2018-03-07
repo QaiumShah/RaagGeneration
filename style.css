@@ -5,8 +5,10 @@ body{
 }
 
 .main{
-  background-color: #dadada;
-  
+  background: url(images/background-image.jpg);
+  background-repeat: repeat;
+  background-size: auto;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .top-header{
@@ -60,34 +62,36 @@ body{
 .main-content{
   margin: -150px 0px 10px 160px;
   z-index: 4;
-  background-color: #fdfdfd;
   position: relative;
   border-radius: 5px;
+  background-color: rgba(205, 241, 255, 0.4);
 }
 
 .right-main-content{
   margin: 10px 160px 10px 0;
-  background-color: #fdfdfd;
   position: relative;
   border-radius: 5px;
+  background-color: rgba(205, 241, 255, 0.4);
 }
 .left-main-content{
   margin: 10px 0 10px 160px;
-  background-color: #fdfdfd;
   position: relative;
   border-radius: 5px;
+background-color: rgba(205, 241, 255, 0.4);
+
 }
 
 .header-content{
   height: 100%;
-  background-color: #fdfdfd;
   border-radius: 5px;
+background-color: rgba(205, 241, 255, 0.4);
 }
 
 .main-content h2 {
   text-align: center;
   padding: 15px 0px 5px 0px ;
   color: #292929;
+
 }
 
 .header-content img{
@@ -134,7 +138,6 @@ body{
 .events-content ul li{
   padding:10px 15px;
   display: inline-block;
-  background-color: #fdfdfd;
   height: 100%;
   width: 45%;
 }
